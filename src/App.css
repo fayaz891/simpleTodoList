@@ -1,0 +1,82 @@
+.TodoForm{
+    background-color:#dff1d55e;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.TodoForm h1{
+    text-align: center;
+}
+.main input{
+    width: 12rem;
+    height: 1.5rem;
+    padding: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 0;
+    background-color: transparent;
+   
+}
+
+.TodoForm ul{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+        width: 16rem;
+    overflow:scroll;
+}
+.TodoForm ul li{
+    list-style: none;
+    color:green;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: cursive;
+    padding-right: 1rem;
+}
+.list{
+    display: flex;
+    margin-right: 10rem;
+    display: flex;
+    margin-right: 10rem;
+    width: 99%;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+}
+.main{
+    align-self: center;
+     border-radius: 10px;
+    background: #d4cfcf47;
+
+}
+.TodoForm button{
+    background-color: transparent;
+    border: 0;
+  
+}
+.main button{
+padding: 0.5rem 1rem 0 0.5rem;
+}
+.css-4b67si-MuiSvgIcon-root{
+    font-size: 2rem!important;
+}
+
+.TodoForm input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+
+.TodoForm button:focus{
+    outline: none;
+}
+
+.TodoForm h1{
+        color: blueviolet;
+    font-family: cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
